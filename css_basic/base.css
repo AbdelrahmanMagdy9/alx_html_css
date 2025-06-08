@@ -1,0 +1,40 @@
+/* Add a universal selector to apply a default box-sizing an d margin to all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Add a style rule for the body to set the background color and text color */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Add a style rule for the main element to set the display to block */
+main {
+    display: block;
+}
+
+/* Add a style rule for the article element to set the background color and add a border and padding */
+article {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Add a style rule for the h1 element to set the font size and margin */
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Add a style rule for the a element to set the text color */
+a {
+    color: #007bff;
+}
+
+/* Add a style rule for the a:hover pseudo-class to change the text decoration */
+a:hover {
+    text-decoration: none;
+} 
