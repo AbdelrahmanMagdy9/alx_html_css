@@ -2,6 +2,25 @@
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+/* Reusable Components */
+.primary-button {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background: #c271ff;
+    border-radius: 22px;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 20px 0px #00000080;
+
+}
+
+.primary-button:hover {
+    opacity: 0.9;
 }
 
 /* Header and Navigation */
@@ -166,4 +185,230 @@ header nav ul li a {
     font-style: italic;
     margin: 0;
     color: #fff;
+}
+
+/* Popular Tutorials Section */
+.popular-tutorials-section {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.popular-tutorials-section h2 {
+    color: #071629;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.popular-tutorials-section h2 .highlight {
+    font-weight: 700;
+    color: #c271ff;
+}
+
+.tutorials-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto 0;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: left;
+}
+
+.tutorial-card {
+    width: 225px;
+}
+
+.thumbnail-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.tutorial-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #071629;
+    margin-bottom: 10px;
+}
+
+.tutorial-card .description {
+    font-size: 14px;
+    color: #071629;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.author-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.author-info h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #c271ff;
+}
+
+.rating-duration-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating-img {
+    height: 15px;
+}
+
+.duration {
+    font-size: 14px;
+    font-weight: 600;
+    color: #c271ff;
+}
+
+/* Free Membership Section */
+.free-membership-section {
+    background-color: #071629;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.free-membership-section h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.free-membership-section .highlight {
+    font-weight: 700;
+    color: #c271ff;
+}
+
+.membership-cards-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 50px;
+}
+
+.membership-card {
+    width: 200px;
+}
+
+.membership-card img {
+    width: 45px;
+    margin-bottom: 20px;
+}
+
+.membership-card h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.membership-card p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.faq-section h2 {
+    color: #071629;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.faq-container {
+    display: flex;
+    max-width: 800px;
+    margin: 50px auto 0;
+    gap: 100px;
+    text-align: left;
+}
+
+.faq-column {
+    flex: 1;
+}
+
+.faq-item {
+    margin-bottom: 40px;
+}
+
+.faq-item h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #071629;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 14px;
+    color: #071629;
+    opacity: 0.5;
+}
+
+/* Footer */
+footer {
+    background-color: #071629;
+    padding: 50px 0;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #fff;
+    opacity: 0.35;
+    font-size: 12px;
 } 
