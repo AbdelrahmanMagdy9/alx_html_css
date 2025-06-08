@@ -125,4 +125,45 @@ header nav ul li a {
 .profile-card p {
     color: #fff;
     font-style: italic;
+}
+
+/* Quote Section */
+.quote-section {
+    background-color: #c271ff;
+    padding: 80px 0;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    gap: 50px;
+}
+
+.quote-container img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.quote-content blockquote {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    color: #fff;
+}
+
+.quote-content h3 {
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.quote-content p {
+    font-style: italic;
+    margin: 0;
+    color: #fff;
 } 
