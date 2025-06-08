@@ -1,1 +1,128 @@
+/* I am a new file. */ 
 
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Header and Navigation */
+header {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo-img {
+    width: 160px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+/* Banner Section */
+.banner-section .banner-content {
+    background-image: url('images/9.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner-content h1 {
+    color: #fff;
+    font-size: 120px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.banner-content .keywords {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.banner-content .keywords span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.banner-content button {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background: #c271ff;
+    border-radius: 22px;
+    padding: 15px 25px;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.banner-content button:hover {
+    opacity: 0.9;
+}
+
+/* Pros Section */
+.pros-section {
+    background-color: #071629;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.pros-section h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.pros-section h2 span {
+    color: #c271ff;
+    font-weight: 600;
+}
+
+.pros-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 50px auto 0;
+    gap: 50px;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-card h3 {
+    color: #fff;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.profile-card p {
+    color: #fff;
+    font-style: italic;
+} 
