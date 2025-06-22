@@ -1,0 +1,63 @@
+/* Pentagon CSS for results section */
+.pentagon {
+  width: 120px;
+  height: 120px;
+  background: var(--primary-color);
+  position: relative;
+  margin: 0 auto;
+  clip-path: polygon(
+    50% 0%,
+    100% 38%,
+    82% 100%,
+    18% 100%,
+    0% 38%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.result-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  z-index: 2;
+}
+.result-label {
+  margin-top: 80px;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.result img { display: none; }
+
+@media (max-width: 1000px) {
+  .pentagon {
+    width: 90px;
+    height: 90px;
+  }
+  .result-value {
+    font-size: 1.3rem;
+  }
+  .result-label {
+    margin-top: 60px;
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 480px) {
+  .pentagon {
+    width: 70px;
+    height: 70px;
+  }
+  .result-value {
+    font-size: 1.1rem;
+  }
+  .result-label {
+    margin-top: 40px;
+    font-size: 0.9rem;
+  }
+} 
