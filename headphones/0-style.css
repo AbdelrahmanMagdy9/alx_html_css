@@ -1,0 +1,117 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+:root {
+  --color-primary: #232a34;
+  --color-accent: #ff5e6c;
+  --color-bg: #f9f9f9;
+  --color-white: #fff;
+  --color-text: #222;
+  --color-nav: #fff;
+  --font-lg: 2.5rem;
+  --font-md: 1.25rem;
+  --font-sm: 1rem;
+  --header-height: 80px;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(rgba(35,42,52,0.8), rgba(35,42,52,0.8)), url('headphones_hero_1.jpg') center/cover no-repeat;
+  color: var(--color-nav);
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 480px;
+}
+
+.header__logo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.header__logo {
+  height: 40px;
+}
+
+.header__nav .nav__list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.header__nav a {
+  color: var(--color-nav);
+  text-decoration: none;
+  font-size: var(--font-sm);
+  transition: color 0.2s;
+}
+
+.header__nav a:hover {
+  color: var(--color-accent);
+}
+
+.header__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.header__hero h1 {
+  font-size: var(--font-lg);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.header__hero p {
+  font-size: var(--font-md);
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  background: var(--color-accent);
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: var(--font-sm);
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn--cta:hover {
+  background: #ff3b50;
+} 
